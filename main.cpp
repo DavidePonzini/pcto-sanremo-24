@@ -8,6 +8,29 @@ using namespace std;
 #include "students.h"
 
 int main() {
+    // inizializzazione -- si forniscono suggerimenti e rappresentazione delle dimensioni delle varie matrici
+    // le funzioni usate sono gia` fornite
+
+    /*
+    Esercizi di riscaldamento:
+        - creare array vuoto 3x3 e stamparlo
+        - creare array vuoto 6x3 e stamparlo
+        - inizializzare i valori come mostrato in figura (1,1,1,1,1,1 / 1,1,1,1,1,1 / ...) e stampare
+        - inizializzare i valori come mostrato in figura (1,2,3,4,5,6 / 1,2,3,4,5,6 / ...) e stampare
+        - inizializzare i valori come mostrato in figura (1,2,3,4,5,6 / 7,8,9,... / ...) e stampare
+        - fare la stessa cosa con un array 10x50
+        - stampare i nomi di tutti gli studenti
+    Esercizi:
+        - stampare i voti come mostrato in figura
+        - stampare la classifica di "Italiano" come mostrato in figura
+        - stampare la classifica per ciascuna materia
+    Opzionale:
+        - classifica basata sulla media (serve creare un nuovo array e calcolare i valori)
+    
+    NOTA: fornire le figure solo su proiettore, cosi` sono obbligati a formulare le loro query
+    */
+
+    
     string filename = "students.csv";
     int rows = 4;
     int cols = 4;
@@ -21,7 +44,7 @@ int main() {
     getStudentMarks(marks, rows, cols, filename);    
 
     int sorted[rows];
-    int sortCol = 1;
+    int sortCol = 3;
     sort(sorted, marks, rows, cols, sortCol);
 
     cout << subjects[sortCol] << ":" << endl;

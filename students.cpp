@@ -8,6 +8,27 @@
 using namespace std;
 
 
+float** createEmpty2DArray(int rows, int cols) {
+    float** array = new float*[rows];
+
+    for (int i = 0; i < rows; i++) {
+        array[i] = new float[cols];
+
+        for (int j = 0; j < cols; j++)
+            array[i][j] = 0.f;
+    }
+
+    return array;
+}
+
+void print2DArray(float** array, int rows, int cols) {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++)
+            cout << array[i][j] << "\t";
+        cout << endl;
+    }
+}
+
 void getStudentNames(string array[], int length, string filename) {
     ifstream file(filename);
     string buf;
@@ -74,29 +95,5 @@ void sort(int result[], float** array, int rows, int cols, int sortColumn) {
 
     for (int i = 0; i < rows; i++) {
         result[i] = indexedArray[i].second;
-    }
-}
-
-float **createEmpty2DArray(int rows, int cols)
-{
-    float** array = new float*[rows];
-
-    for (int i = 0; i < rows; i++) {
-        array[i] = new float[cols];
-
-        for (int j = 0; j < cols; j++) {
-            array[i][j] = 0.f;
-            // array[i][j] = i*cols + j; --> si puo` fare esercizio su questo con questionario finale per vedere apprendimento?
-        }
-    }
-
-    return array;
-}
-
-void print2DArray(float** array, int rows, int cols) {
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < cols; j++)
-            cout << array[i][j] << "\t";
-        cout << endl;
     }
 }
