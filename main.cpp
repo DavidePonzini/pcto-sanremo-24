@@ -2,10 +2,40 @@
 #include <string>
 #include <cmath>
 
+using namespace std;
+
+// Wednesday
+#include "students.h"
+
+int main() {
+    string filename = "students.csv";
+    int rows = 4;
+    int cols = 4;
+
+    string students[rows];
+    string subjects[cols];
+    float** marks = createEmpty2DArray(rows, cols);
+
+    getStudentNames(students, rows, filename);
+    getSubjectNames(subjects, cols, filename);
+    getStudentMarks(marks, rows, cols, filename);    
+
+    int sorted[rows];
+    int sortCol = 1;
+    sort(sorted, marks, rows, cols, sortCol);
+
+    cout << subjects[sortCol] << ":" << endl;
+    for (int i = 0; i < rows; i++) {
+        int idx = sorted[i];
+        cout << students[idx] << " " << marks[idx][sortCol] << endl;
+    }
+}
+
+/*
+// Monday //
+
 #include "temperatures.h"
 #include "data.h"
-
-using namespace std;
 
 
 float FtoC(float F) {
@@ -36,3 +66,4 @@ int main() {
     cout << endl;
     printTemperatureStatistics(temperatures[t1], temperatures[t2], sum/items, cities[t1], cities[t2]);
 }
+*/
