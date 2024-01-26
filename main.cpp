@@ -2,74 +2,110 @@
 #include <string>
 #include <cmath>
 
+
 using namespace std;
 
+
 // Wednesday
-#include "students.h"
+#include "pictures.h"
 
 int main() {
-    /*
-    
-    * Premessa: si spiega cosa si deve fare,
-                si forniscono suggerimenti e rappresentazione grafica delle dimensioni delle varie matrici necessarie
+// |\---/|
+// | o_o |
+//  \_^_/
 
-            |---------------|
-            |   MATERIE     |
-    |-------|---------------|
-    |   S   |               |
-    |   T   |      V        |
-    |   U   |      O        |
-    |   D   |      T        |
-    |   E   |      I        |
-    |   N   |               |
-    |   T   |               |
-    |   I   |               |
-    |-------|---------------|
-    
-    * NOTA: le funzioni usate per leggere ed inizializzare sono gia` fornite completete
+//  _._     _,-'""`-._
+// (,-.`._,'(       |\`-/|
+//     `-.-' \ )-`( , o o)
+//           `-    \`_`"'-
 
-    * Esercizi di riscaldamento:
-        - creare array vuoto 3x3 e stamparlo
-        - creare array vuoto 6x3 e stamparlo
-        - inizializzare i valori come mostrato in figura (1,1,1,1,1,1 / 1,1,1,1,1,1 / ...) e stampare
-        - inizializzare i valori come mostrato in figura (1,2,3,4,5,6 / 1,2,3,4,5,6 / ...) e stampare
-        - inizializzare i valori come mostrato in figura (1,2,3,4,5,6 / 7,8,9,... / ...) e stampare
-        - fare la stessa cosa con un array 10x50
-        - stampare i nomi di tutti gli studenti
-    * Esercizi core:
-        - stampare i voti come mostrato in figura
-        - stampare la classifica di "Italiano" come mostrato in figura
-        - stampare la classifica per ciascuna materia
-    * Opzionale?:
-        - classifica basata sulla media (serve creare un nuovo array e calcolare le medie)
-    
-    * NOTA: fornire le figure solo su proiettore, cosi` sono obbligati a ragionare su come formulare le loro query
-    
-    */
+    File file("images/cat2.txt");
+    int r = file.readNext();
+    int c = file.readNext();
 
-    
-    string filename = "students.csv";
-    int rows = 4;
-    int cols = 4;
+    Array2D array(r, c);
 
-    string students[rows];
-    string subjects[cols];
-    float** marks = createEmpty2DArray(rows, cols);
+    for (int i = 0; i < r; i++)
+        for (int j = 0; j < c; j++)
+            array[i][j] = file.readNext();
 
-    getStudentNames(students, rows, filename);
-    getSubjectNames(subjects, cols, filename);
-    getStudentMarks(marks, rows, cols, filename);    
+    array.print();
 
-    int sorted[rows];
-    int sortCol = 3;
-    sort(sorted, marks, rows, cols, sortCol);
-
-    cout << subjects[sortCol] << ":" << endl;
-    for (int i = 0; i < rows; i++) {
-        int idx = sorted[i];
-        cout << students[idx] << " " << marks[idx][sortCol] << endl;
+    for (int i = 0; i < r; i++)
+    {
+        for (int j = 0; j < c; j++)
+            cout << (char) array[i][j];
+        cout << endl;
     }
 }
+
+
+// // Thursday
+// #include "students.h"
+
+// int main() {
+//     /*
+    
+//     * Premessa: si spiega cosa si deve fare,
+//                 si forniscono suggerimenti e rappresentazione grafica delle dimensioni delle varie matrici necessarie
+
+//             |---------------|
+//             |   MATERIE     |
+//     |-------|---------------|
+//     |   S   |               |
+//     |   T   |      V        |
+//     |   U   |      O        |
+//     |   D   |      T        |
+//     |   E   |      I        |
+//     |   N   |               |
+//     |   T   |               |
+//     |   I   |               |
+//     |-------|---------------|
+    
+//     * NOTA: le funzioni usate per leggere ed inizializzare sono gia` fornite completete
+
+//     * Esercizi di riscaldamento:
+//         - creare array vuoto 3x3 e stamparlo
+//         - creare array vuoto 6x3 e stamparlo
+//         - inizializzare i valori come mostrato in figura (1,1,1,1,1,1 / 1,1,1,1,1,1 / ...) e stampare
+//         - inizializzare i valori come mostrato in figura (1,2,3,4,5,6 / 1,2,3,4,5,6 / ...) e stampare
+//         - inizializzare i valori come mostrato in figura (1,2,3,4,5,6 / 7,8,9,... / ...) e stampare
+//         - fare la stessa cosa con un array 10x50
+//         - stampare i nomi di tutti gli studenti
+//     * Esercizi core:
+//         - stampare i voti come mostrato in figura
+//         - stampare la classifica di "Italiano" come mostrato in figura
+//         - stampare la classifica per ciascuna materia
+//     * Opzionale?:
+//         - classifica basata sulla media (serve creare un nuovo array e calcolare le medie)
+    
+//     * NOTA: fornire le figure solo su proiettore, cosi` sono obbligati a ragionare su come formulare le loro query
+    
+//     */
+
+    
+//     string filename = "students.csv";
+//     int rows = 4;
+//     int cols = 4;
+
+//     string students[rows];
+//     string subjects[cols];
+//     float** marks = createEmpty2DArray(rows, cols);
+
+//     getStudentNames(students, rows, filename);
+//     getSubjectNames(subjects, cols, filename);
+//     getStudentMarks(marks, rows, cols, filename);    
+
+//     int sorted[rows];
+//     int sortCol = 3;
+//     sort(sorted, marks, rows, cols, sortCol);
+
+//     cout << subjects[sortCol] << ":" << endl;
+//     for (int i = 0; i < rows; i++) {
+//         int idx = sorted[i];
+//         cout << students[idx] << " " << marks[idx][sortCol] << endl;
+//     }
+// }
 
 /*
 // Monday //
