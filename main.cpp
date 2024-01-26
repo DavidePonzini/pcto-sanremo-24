@@ -5,6 +5,33 @@
 
 using namespace std;
 
+/* TUESDAY
+    Compiti "a casa": stampare usando il ciclo for/while i valori come mostrato in figura:
+        - (7,7,7,7,7,7 / 7,7,7,7,7,7 / 7,7,7,7,7,7)
+            for i in range(0,3)
+                for j in range(0,6)
+                    cout << 7
+                cout << endl
+        
+        - (0,0,0,0,0,0 / 1,1,1,1,1,1 / 2,2,2,2,2,2)
+            for i in range(0,3)
+                for j in range(0,6)
+                    cout << i
+                cout << endl
+
+        - (0,1,2,3,4,5 / 0,1,2,3,4,5 / 0,1,2,3,4,5)
+            for i in range(0,3)
+                for j in range(0,6)
+                    cout << j
+                cout << endl
+
+        - (0,1,2,3,4,5 / 6,7,8,9,10,11 / 12,13,14,15,16,17)
+            for i in range(0,3)
+                for j in range(0,6)
+                    cout << i*6 + j     // oppure con variabile contatore
+                cout << endl
+*/
+
 
 // Wednesday
 #include "pictures.h"
@@ -30,21 +57,31 @@ int main() {
         - impostare il valore [0][0] a 1, stampare
         - impostare anche il valore [1][1] a 1, stampare
         - impostare anche il valore della diagonare a 1, stampare (fornire immagine risultato)
+        - creare un nuovo array 6x10. impostare tutta la prima riga a 1
         - creare array vuoto 3x6 e stamparlo
-        - inizializzare i valori come mostrato in figura (1,1,1,1,1,1 / 1,1,1,1,1,1 / 1,1,1,1,1,1) e stampare
-        - inizializzare i valori come mostrato in figura (1,2,3,4,5,6 / 1,2,3,4,5,6 / 1,2,3,4,5,6) e stampare
-        - inizializzare i valori come mostrato in figura (1,2,3,4,5,6 / 7,8,9,10,11,12 / 13,14,15,16,17,18) e stampare
+        
+        IDENTICI AL GIORNO PRIMA:
+        - inizializzare i valori come mostrato in figura (7,7,7,7,7,7 / 7,7,7,7,7,7 / 7,7,7,7,7,7) e stampare
+            arr[i][j] = 7
+        - inizializzare i valori come mostrato in figura (0,0,0,0,0,0 / 1,1,1,1,1,1 / 2,2,2,2,2,2) e stampare
+            arr[i][j] = i
+        - inizializzare i valori come mostrato in figura (0,1,2,3,4,5 / 0,1,2,3,4,5 / 0,1,2,3,4,5) e stampare
+            arr[i][j] = j
+        - inizializzare i valori come mostrato in figura (0,1,2,3,4,5 / 6,7,8,9,10,11 / 12,13,14,15,16,17) e stampare
+            arr[i][j] = i*col + j oppure con variabile contatore
+        
         - fare la stessa cosa con un array 10x50
+        
         - stampare su schermo le dimensioni della seguente immagine: <nome immagine facile>
+    
     * Esercizi core:
         - leggere correttamente l'immagine <nome immagine facile> e stampare su schermo tutti i numeri, usando array2d
         - ripetere per <immagine 2>
         - stampare l'immagine convertendo ciascun numero in char (fornire istruzioni per cast --> (char) valore )
         - ripetere per le altre immagini
-        - 
+        - utilizzare lo stesso procedimento per l'immagine <nome immagine>, in cui pero` bisogna sostituire a tutti i numeri 0 (NULL) il valore 32 (' ')
     * Opzionale?:
         - immagini con piu` iterazioni di encoding (2)
-        - immagini con piu` iterazioni di encoding (10)
     
     * NOTA: fornire le figure solo su proiettore, cosi` sono obbligati a ragionare su come formulare le loro query
     */
@@ -99,7 +136,6 @@ int main() {
 //         - creare array vuoto 3x5 e stamparlo
 //         - inizializzare i valori come mostrato in figura (1,1,1,1,1 / 1,1,1,1,1 / 1,1,1,1,1) e stampare
 //         - inizializzare i valori come mostrato in figura (15,14,13,12,11 / 10,9,8,7,6 / 5,4,3,2,1) e stampare
-//         - fare la stessa cosa con un array 10x50
 //         - stampare i nomi di tutti gli studenti
 //     * Esercizi core:
 //         - stampare i voti come mostrato in figura
