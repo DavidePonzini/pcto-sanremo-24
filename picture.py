@@ -8,7 +8,7 @@ def img_to_str(filename):
         rows = len(lines)
         cols = len(lines[0]) - 1
 
-        print('{:<6}  {:<6}'.format(rows, cols))
+        print('{:3} {:3}'.format(rows, cols))
         for line in lines:
             for c in line[:cols]:
                 print('{:3}'.format(ord(c)), sep='', end=' ')

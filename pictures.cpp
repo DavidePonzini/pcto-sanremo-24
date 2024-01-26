@@ -48,7 +48,7 @@ File::~File() {
         file.close();
 }
 
-int File::readNext() {
+int File::readInt() {
     if (file.eof())
         throw runtime_error("End of file reached or file not readable.");
 

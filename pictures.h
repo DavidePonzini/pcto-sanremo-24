@@ -22,5 +22,5 @@ public:
     File(std::string filename);
     ~File();
     
-    int readNext();
+    int readInt();
 };
