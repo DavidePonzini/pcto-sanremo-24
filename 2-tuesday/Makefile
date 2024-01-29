@@ -1,6 +1,7 @@
 OUT=out
 
 
+all: run clean
 
 run: compile
 	./$(OUT)
