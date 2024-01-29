@@ -1,4 +1,6 @@
 #include "pictures.h"
+#include <string>
+#include <fstream>
 #include <iostream>
 #include <iomanip>
 #include <stdexcept>

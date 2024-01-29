@@ -1,5 +1,7 @@
 OUT=out
 
+
+
 run: compile
 	./$(OUT)
 
