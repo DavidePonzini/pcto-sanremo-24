@@ -95,23 +95,27 @@ void getStudentMarks(Array2D& array, int rows, int cols, string filename) {
     }
 }
 
+void printValue() {
+    printValue("");
+}
+
 void printValue(float value) {
-    cout << fixed << setprecision(1) << setfill(' ') << setw(16) << value; 
+    cout << fixed << setprecision(1) << setfill(' ') << setw(16) << value;
 }
 
 void printValue(std::string value) {
     cout << setfill(' ') << setw(16) << value; 
 }
 
-void sort(int result[], Array2D& array, int rows, int cols, int sortColumn) {
-    pair<float, int> indexedArray[rows];
-    for (int i = 0; i < rows; i++) {
-        indexedArray[i] = make_pair(array[i][sortColumn], i);
-    }
+// void sort(int result[], Array2D& array, int rows, int cols, int sortColumn) {
+//     pair<float, int> indexedArray[rows];
+//     for (int i = 0; i < rows; i++) {
+//         indexedArray[i] = make_pair(array[i][sortColumn], i);
+//     }
 
-    std::sort(indexedArray, indexedArray + rows);
+//     std::sort(indexedArray, indexedArray + rows);
 
-    for (int i = 0; i < rows; i++) {
-        result[i] = indexedArray[i].second;
-    }
-}
+//     for (int i = 0; i < rows; i++) {
+//         result[i] = indexedArray[i].second;
+//     }
+// }
