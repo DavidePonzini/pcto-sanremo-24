@@ -13,7 +13,7 @@
         for (int i = 0; i < 10; i++)
             y += 2;
         
-        while(x > y) {
+        while (x > y) {
             cout << "A";
             x--;
         }
