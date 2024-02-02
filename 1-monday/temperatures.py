@@ -43,4 +43,4 @@ float temperatures[] = {{ {} }};'''.format(
     [x for x in data['Temperature']]), file=f)
 
 if __name__ == '__main__':
-    to_cpp('data2.csv', 'out.cpp')
+    to_cpp('data.csv', 'data.h')
