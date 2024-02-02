@@ -11,3 +11,6 @@ compile:
 
 clean:
 	rm -f $(OUT)
+
+dataset:
+	python3 ./students.py

@@ -1,0 +1,461 @@
+,City,Temperature
+0,Algiers (Algeria),63.3
+1,Tamanrasset (Algeria),71.1
+2,Reggane (Algeria),82.9
+3,Luanda (Angola),78.4
+4,Cotonou (Benin),81.0
+5,Parakou (Benin),80.2
+6,Kandi (Benin),81.9
+7,Maun (Botswana),72.3
+8,Gaborone (Botswana),70
+9,Ghanzi (Botswana),70.5
+10,Ouagadougou (Burkina Faso),82.9
+11,Ouahigouya (Burkina Faso),83.5
+12,Bujumbura (Burundi),74.8
+13,Garoua (Cameroon),82.9
+14,Ngaoundéré (Cameroon),71.6
+15,Douala (Cameroon),80.1
+16,Yaoundé (Cameroon),74.8
+17,Praia (Cape Verde),75.9
+18,Bangui (Central African Republic),78.8
+19,Birao (Central African Republic),79.7
+20,N'Djamena (Chad),82.9
+21,Abéché (Chad),84.9
+22,Kinshasa (Democratic Republic of the Congo),77.5
+23,Lubumbashi (Democratic Republic of the Congo),69.4
+24,Djibouti (Djibouti),85.8
+25,Cairo (Egypt),70.5
+26,Alexandria (Egypt),68.0
+27,Bata (Equatorial Guinea),77.2
+28,Malabo (Equatorial Guinea),79.3
+29,Asmara (Eritrea),60.1
+30,Assab (Eritrea),86.9
+31,Mek'ele (Ethiopia),72.9
+32,Addis Ababa (Ethiopia),61
+33,Libreville (Gabon),78.6
+34,Port-Gentil (Gabon),78.8
+35,Banjul (The Gambia),79
+36,Accra (Ghana),79.5
+37,Tamale (Ghana),82.2
+38,Kumasi (Ghana),79
+39,Conakry (Guinea),79.5
+40,Kankan (Guinea),79.7
+41,Bissau (Guinea-Bissau),81
+42,Gagnoa (Ivory Coast),79
+43,Bouaké (Ivory Coast),79
+44,Abidjan (Ivory Coast),79
+45,Odienné (Ivory Coast),79
+46,Mombasa (Kenya),79.3
+47,Nairobi (Kenya),64.0
+48,Garissa (Kenya),84.7
+49,Lodwar (Kenya),84.7
+50,Tripoli (Libya),68
+51,Benghazi (Libya),67.8
+52,Fianarantsoa (Madagascar),64.2
+53,Toamasina (Madagascar),74.1
+54,Antananarivo (Madagascar),64.2
+55,Antsiranana (Madagascar),77.4
+56,Mahajanga (Madagascar),79.3
+57,Toliara (Madagascar),75.4
+58,Karonga (Malawi),75.9
+59,Blantyre (Malawi),72.0
+60,Mzuzu (Malawi),63.9
+61,Ségou (Mali),82
+62,Timbuktu (Mali),82
+63,Bamako (Mali),82.0
+64,Nouadhibou (Mauritania),70.3
+65,Nouakchott (Mauritania),78.3
+66,Rabat (Morocco),63.0
+67,Marrakesh (Morocco),67.3
+68,Ouarzazate (Morocco),66.0
+69,Maputo (Mozambique),73.0
+70,Niamey (Niger),84.7
+71,Lagos (Nigeria),80.2
+72,Makurdi (Nigeria),78.8
+73,Jos (Nigeria),81.3
+74,Kano (Nigeria),79.5
+75,Sokoto (Nigeria),82
+76,Brazzaville (Republic of the Congo),77
+77,Pointe-Noire (Republic of the Congo),79.0
+78,Dolisie (Republic of the Congo),75
+79,Dakar (Senegal),75
+80,Thiès (Senegal),75
+81,Bosaso (Somalia),86.0
+82,Hargeisa (Somalia),71.1
+83,Mogadishu (Somalia),80.8
+84,Pretoria (South Africa),64.8
+85,Cape Town (South Africa),61.2
+86,Johannesburg (South Africa),59.9
+87,Bloemfontein (South Africa),60.1
+88,Upington (South Africa),68.7
+89,Durban (South Africa),69.1
+90,Juba (South Sudan),82.0
+91,Wau (South Sudan),82.0
+92,Port Sudan (Sudan),83.1
+93,Khartoum (Sudan),85.8
+94,Dar es Salaam (Tanzania),78.4
+95,Zanzibar City (Tanzania),79
+96,Tabora (Tanzania),73
+97,Dodoma (Tanzania),72.9
+98,Lomé (Togo),80.4
+99,Mango (Togo),82.6
+100,Tunis (Tunisia),65.1
+101,Gabès (Tunisia),67.1
+102,Kampala (Uganda),68
+103,Entebbe (Uganda),70
+104,Ndola (Zambia),68.5
+105,Lusaka (Zambia),67.8
+106,Livingstone (Zambia),71.2
+107,Harare (Zimbabwe),65.1
+108,Bulawayo (Zimbabwe),66.0
+109,Kabul (Afghanistan),53.8
+110,Baku (Azerbaijan),59.2
+111,Yerevan (Armenia),54.3
+112,Manama (Bahrain),79.7
+113,Dhaka (Bangladesh),78.6
+114,Phnom Penh (Cambodia),82.9
+115,Beijing (China),55.2
+116,Changsha (China),63.3
+117,Chongqing (China),65.5
+118,Guangzhou (China),72.3
+119,Harbin (China),41.0
+120,Kunming (China),60.3
+121,Lhasa (China),45.7
+122,Shanghai (China),62.1
+123,Ürümqi (China),45.3
+124,Xi'an (China),57.4
+125,Yinchuan (China),48.2
+126,Dili (East Timor),79.9
+127,Batumi (Georgia),57
+128,Tbilisi (Georgia),55.2
+129,Hong Kong (Hong Kong),73.9
+130,New Delhi (India),77
+131,Kolkata (India),80.1
+132,Mumbai (India),80.8
+133,Jakarta (Indonesia),80.1
+134,Denpasar (Indonesia),74.7
+135,Jayapura (Indonesia),80.6
+136,Makassar (Indonesia),80.1
+137,Medan (Indonesia),79.7
+138,Palembang (Indonesia),81.1
+139,Pontianak (Indonesia),81.9
+140,Surabaya (Indonesia),80.8
+141,Baghdad (Iraq),72.99
+142,Erbil (Iraq),67.1
+143,Tehran (Iran),63
+144,Ahvaz (Iran),77.7
+145,Tabriz (Iran),54.7
+146,Tel Aviv (Israel),68
+147,Sapporo (Japan),48.0
+148,Niigata (Japan),57.0
+149,Tokyo (Japan),59.7
+150,Kyoto (Japan),60.4
+151,Hiroshima (Japan),61.3
+152,Fukuoka (Japan),62.6
+153,Naha (Japan),73.6
+154,Almaty (Kazakhstan),50.0
+155,Nur-Sultan (Kazakhstan),38.3
+156,Pyongyang (North Korea),51.4
+157,Seoul (South Korea),54.5
+158,Kuwait City (Kuwait),78.3
+159,Bishkek (Kyrgyzstan),52.3
+160,Vientiane (Laos),78.6
+161,Beirut (Lebanon),69.6
+162,Kuala Lumpur (Malaysia),81.1
+163,Malé (Maldives),82.4
+164,Ulaanbaatar (Mongolia),31.3
+165,Mandalay (Myanmar),82.4
+166,Yangon (Myanmar),81.5
+167,Kathmandu (Nepal),64.9
+168,Muscat (Oman),82
+169,Karachi (Pakistan),78.8
+170,Lahore (Pakistan),75.7
+171,Manila (Philippines),83.1
+172,Dikson (Russia),12.0
+173,Irkutsk (Russia),33.8
+174,Novosibirsk (Russia),35.1
+175,"Petropavlovsk-
+Kamchatsky (Russia)",35.4
+176,Vladivostok (Russia),40.8
+177,Yakutsk (Russia),16.2
+178,Abha (Saudi Arabia),64
+179,Riyadh (Saudi Arabia),79
+180,Singapore (Singapore),81
+181,Colombo (Sri Lanka),81.3
+182,Damascus (Syria),62.6
+183,Dushanbe (Tajikistan),58.5
+184,Taipei (Taiwan),73.4
+185,Bangkok (Thailand),83.5
+186,Chiang Mai (Thailand),78.4
+187,Hat Yai (Thailand),80.6
+188,Nakhon Ratchasima (Thailand),81.1
+189,Ankara (Turkey),53.6
+190,Erzurum (Turkey),41.2
+191,İzmir (Turkey),64.2
+192,Ashgabat (Turkmenistan),62.8
+193,"Dubai (United Arab
+Emirates)",80.4
+194,Tashkent (Uzbekistan),58.6
+195,Da Lat (Vietnam),64.2
+196,Da Nang (Vietnam),78.4
+197,Hanoi (Vietnam),74.5
+198,Ho Chi Minh City (Vietnam),81.3
+199,Aden (Yemen),84.4
+200,Sana'a (Yemen),68
+201,Tirana (Albania),59.4
+202,Andorra la Vella (Andorra),49.6
+203,Vienna (Austria),50.7
+204,Minsk (Belarus),44.1
+205,Brussels (Belgium),50.9
+206,Sarajevo (Bosnia and Herzegovina),50.2
+207,Sofia (Bulgaria),51.1
+208,Zagreb (Croatia),51.3
+209,Split (Croatia),61.0
+210,Nicosia (Cyprus),67.5
+211,Prague (Czech Republic),47.1
+212,Copenhagen (Denmark),48.4
+213,Tallinn (Estonia),42.6
+214,Helsinki (Finland),42.6
+215,Kuopio (Finland),38.1
+216,Oulu (Finland),36.9
+217,Marseille (France),60.4
+218,Paris (France),54.1
+219,Berlin (Germany),50.5
+220,Frankfurt (Germany),51.1
+221,Piraeus (Greece),66.9
+222,Budapest (Hungary),52.3
+223,Reykjavík (Iceland),39.7
+224,Dublin (Ireland),49.6
+225,Milan (Italy),55.4
+226,Palermo (Italy),65.3
+227,Rome (Italy),59.4
+228,Napoli (Italy),60.6
+229,Riga (Latvia),43.2
+230,Vaduz (Liechtenstein),50.2
+231,Vilnius (Lithuania),42.8
+232,Luxembourg City (Luxembourg),48.7
+233,Skopje (Macedonia),54.3
+234,Valletta (Malta),65.8
+235,Chișinău (Moldova),50.4
+236,Monaco (Monaco),61.5
+237,Podgorica (Montenegro),59.5
+238,Amsterdam (Netherlands),50.4
+239,Bergen (Norway),45.9
+240,Oslo (Norway),42.3
+241,Tromsø (Norway),37.2
+242,Cracow (Poland),48.7
+243,Suwałki (Poland),45.0
+244,Warsaw (Poland),47.3
+245,Wrocław (Poland),49.3
+246,Lisbon (Portugal),63.5
+247,Bucharest (Romania),51.4
+248,Arkhangelsk (Russia),34.3
+249,Moscow (Russia),42.4
+250,Murmansk (Russia),33.1
+251,Rostov-on-Don (Russia),49.8
+252,Saint Petersburg (Russia),42.4
+253,Sochi (Russia),57.6
+254,City of San Marino (San Marino),53.2
+255,Belgrade (Serbia),54.5
+256,Bratislava (Slovakia),50.9
+257,Ljubljana (Slovenia),51.6
+258,Barcelona (Spain),64.8
+259,Las Palmas de Gran Canaria (Spain),70.2
+260,Madrid (Spain),59.0
+261,Seville (Spain),66.6
+262,Valencia (Spain),64.9
+263,Stockholm (Sweden),43.9
+264,Zürich (Switzerland),48.7
+265,Istanbul (Turkey),57.0
+266,Kiev (Ukraine),47.1
+267,Lviv (Ukraine),46.0
+268,Odessa (Ukraine),51.3
+269,Edinburgh (United Kingdom),48.7
+270,London (United Kingdom),50.5
+271,St. John's (Antigua and Barbuda),80.4
+272,Oranjestad (Aruba),82.6
+273,Nassau (The Bahamas),76.3
+274,Bridgetown (Barbados),80.6
+275,Belize City (Belize),80.1
+276,Hamilton (Bermuda),72.1
+277,Calgary (Canada),39.9
+278,Edmonton (Canada),39.6
+279,Gjoa Haven (Canada),6.1
+280,Halifax (Canada),45.5
+281,Iqaluit (Canada),15.3
+282,Moncton (Canada),43.0
+283,Montreal (Canada),44.2
+284,Ottawa (Canada),43.9
+285,Saskatoon (Canada),37.9
+286,St. John's (Canada),41.0
+287,Toronto (Canada),48.9
+288,Vancouver (Canada),50.7
+289,Winnipeg (Canada),37.4
+290,Whitehorse (Canada),31.8
+291,Yellowknife (Canada),24.3
+292,George Town (Cayman Islands),82.2
+293,San José (Costa Rica),72.7
+294,Havana (Cuba),77.4
+295,Willemstad (Curaçao),82.4
+296,Roseau (Dominica),79.2
+297,Santo Domingo (Dominican Republic),78.6
+298,Nuuk (Greenland),29.5
+299,La Ceiba (Honduras),79.2
+300,Tegucigalpa (Honduras),71.1
+301,Kingston (Jamaica),81.3
+302,Cabo San Lucas (Mexico),75.0
+303,Chihuahua (Mexico),65.5
+304,Guadalajara (Mexico),69.6
+305,La Paz (Mexico),74.7
+306,Mexicali (Mexico),73.6
+307,Mexico City (Mexico),63.5
+308,Monterrey (Mexico),72.1
+309,Tijuana (Mexico),64.0
+310,Toluca (Mexico),54.3
+311,Veracruz (Mexico),77.7
+312,Villahermosa (Mexico),80.8
+313,Managua (Nicaragua),81.1
+314,Panama City (Panama),82
+315,San Salvador (El Salvador),73.6
+316,San Juan (Puerto Rico),81.0
+317,"Saint-Pierre (Saint Pierre
+and Miquelon)",42.3
+318,Albuquerque (United States),57.2
+319,Anchorage (United States),37.1
+320,Atlanta (United States),62.6
+321,Austin (United States),69.3
+322,Baltimore (United States),55.6
+323,Boise (United States),52.5
+324,Boston (United States),51.7
+325,Charlotte (United States),60.9
+326,Chicago (United States),49.7
+327,Columbus (United States),53.0
+328,Dallas (United States),66.2
+329,Denver (United States),50.7
+330,Detroit (United States),50.0
+331,El Paso (United States),64.6
+332,Fairbanks (United States),27.9
+333,Fresno (United States),64.3
+334,Houston (United States),69.4
+335,Indianapolis (United States),53.2
+336,Jacksonville (United States),68.5
+337,Kansas City (United States),54.5
+338,Las Vegas (United States),68.5
+339,Lake Havasu City (United States),74.6
+340,Los Angeles (United States),65.4
+341,Louisville (United States),57.1
+342,Memphis (United States),63.0
+343,Miami (United States),76.9
+344,Milwaukee (United States),48.1
+345,Minneapolis (United States),46.1
+346,Nashville (United States),59.8
+347,New Orleans (United States),69.2
+348,New York City (United States),55.3
+349,"Oklahoma
+City (United States)",60.6
+350,Omaha (United States),51.1
+351,Palm Springs (United States),76.1
+352,Philadelphia (United States),55.8
+353,Phoenix (United States),75.0
+354,Pittsburgh (United States),51.4
+355,Portland (OR) (United States),54.4
+356,Sacramento (United States),61.3
+357,"Salt Lake
+City (United States)",52.9
+358,San Antonio (United States),69.5
+359,San Diego (United States),64.1
+360,"San
+Francisco (United States)",58.2
+361,San Jose (United States),61.5
+362,Seattle (United States),52.4
+363,St. Louis (United States),57.0
+364,Tampa (United States),73.2
+365,Tucson (United States),69.7
+366,"Virginia
+Beach (United States)",60.5
+367,"Washington,
+D.C. (United States)",58.2
+368,Wichita (United States),57.0
+369,Adelaide (Australia),63.1
+370,Alice Springs (Australia),70
+371,Brisbane (Australia),70.5
+372,Cairns (Australia),77
+373,Canberra (Australia),55.6
+374,Dampier (Australia),79.5
+375,Darwin (Australia),81.7
+376,Hobart (Australia),54.9
+377,Melbourne (Australia),59.2
+378,Perth (Australia),65.7
+379,Sydney (Australia),63.9
+380,Hanga Roa (Chile),68.9
+381,Suva (Fiji),78.1
+382,Auckland (New Zealand),59.4
+383,Christchurch (New Zealand),54.0
+384,Dunedin (New Zealand),52.0
+385,Hamilton (New Zealand),56.8
+386,Lake Tekapo (New Zealand),47.7
+387,Napier (New Zealand),58.3
+388,Palmerston North (New Zealand),55.8
+389,Tauranga (New Zealand),58.6
+390,Wellington (New Zealand),55.2
+391,Port Moresby (Papua New Guinea),80.4
+392,Honiara (Solomon Islands),79.7
+393,Honolulu (United States),77.7
+394,Port Vila (Vanuatu),75.7
+395,Bahía Blanca (Argentina),59.5
+396,Bariloche (Argentina),46.9
+397,Buenos Aires (Argentina),64.2
+398,Comodoro Rivadavia (Argentina),55.4
+399,Córdoba (Argentina),64.8
+400,Mar del Plata (Argentina),57.0
+401,Mendoza (Argentina),62.8
+402,Neuquén (Argentina),58.5
+403,Resistencia (Argentina),70.0
+404,Río Gallegos (Argentina),46.0
+405,Rosario (Argentina),63.5
+406,Salta (Argentina),62.1
+407,San Juan (Argentina),64.2
+408,"San Miguel
+de Tucumán (Argentina)",67.1
+409,Santiago del Estero (Argentina),68.7
+410,Ushuaia (Argentina),42.3
+411,Viedma (Argentina),57.6
+412,La Paz (Bolivia),47.8
+413,Santa Cruz de la Sierra (Bolivia),76.6
+414,Sucre (Bolivia),60.1
+415,Belém (Brazil),78.6
+416,Belo Horizonte (Brazil),70.0
+417,Brasília (Brazil),69.1
+418,Campos do Jordão (Brazil),57.6
+419,Curitiba (Brazil),62.2
+420,Florianópolis (Brazil),69.6
+421,Fortaleza (Brazil),79.9
+422,Goiânia (Brazil),73.8
+423,Manaus (Brazil),80.1
+424,Porto Alegre (Brazil),67.1
+425,Recife (Brazil),77.9
+426,Rio de Janeiro (Brazil),74.8
+427,Salvador (Brazil),77.5
+428,São Joaquim (Brazil),55.9
+429,São Paulo (Brazil),66.6
+430,Vitória (Brazil),76.6
+431,Antofagasta (Chile),62.1
+432,Concepción (Chile),54.3
+433,La Serena (Chile),56.5
+434,Punta Arenas (Chile),43.0
+435,Santiago (Chile),58.5
+436,Bogotá (Colombia),57.9
+437,Barranquilla (Colombia),81.3
+438,Medellín (Colombia),72.5
+439,Guayaquil (Ecuador),79.7
+440,Quito (Ecuador),57.9
+441,Stanley (Falkland Islands),42.1
+442,Cayenne (French Guiana),80.1
+443,Georgetown (Guyana),80.2
+444,Asunción (Paraguay),72.9
+445,Cusco (Peru),54.5
+446,Lima (Peru),66.6
+447,Piura (Peru),76.1
+448,Paramaribo (Suriname),80.2
+449,Montevideo (Uruguay),62.1
+450,Caracas (Venezuela),71.6

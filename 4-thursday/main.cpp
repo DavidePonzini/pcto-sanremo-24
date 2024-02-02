@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <iomanip>
 #include "students.h"
 
 using namespace std;
@@ -45,9 +44,9 @@ using namespace std;
 
 
 int main() {
-    string filename = "students.csv";
-    int rows = 4;
-    int cols = 4;
+    string filename = "students200x7.csv";
+    int rows = 200;
+    int cols = 7;
 
     string students[rows];
     string subjects[cols];
@@ -67,7 +66,7 @@ int main() {
     printValue("Esito");
     cout << endl;
     
-    // body (name + marks + avg)
+    // body (name + marks + avg + result)
     for (int i = 0; i < rows; i++) {
         printValue(students[i]);
         float sum = 0.f;

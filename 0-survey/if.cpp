@@ -8,12 +8,15 @@
     int main() {
         int x = 18, y = 22;
 
-        if (x > 15)
+        if (x > 15) {
             cout << "A";
-        if (y > 25)
+        }
+        if (y > 25) {
             cout << "B";
-        else
+        }
+        else {
             cout << "C";
+        }
     }
 
 
