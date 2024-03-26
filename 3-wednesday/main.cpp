@@ -70,10 +70,7 @@ int main() {
         for (int j = 0; j < cols; j++)
             array[i][j] = file.readInt();
 
-    array.print();
-
-    for (int i = 0; i < rows; i++)
-    {
+    for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++)
             cout << (char) array[i][j];
         cout << endl;

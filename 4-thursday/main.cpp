@@ -51,58 +51,34 @@ int main() {
     string students[rows];
     string subjects[cols];
     Array2D marks(rows, cols);
-    
+
+    // Read data from file    
     getStudentNames(students, rows, filename);
     getSubjectNames(subjects, cols, filename);
     getStudentMarks(marks, rows, cols, filename);
 
-    // marks.print();
-
-    // header row
-    printValue();
+    // Print header row
+    printValue();                   // Empty cell
     for (int i = 0; i < cols; i++)
-        printValue(subjects[i]);
-    printValue("Media");
-    printValue("Esito");
+        printValue(subjects[i]);    // Subject names
+    printValue("Media");            // Average
+    printValue("Esito");            // Final result
     cout << endl;
     
-    // body (name + marks + avg + result)
+    // Body (name + marks + avg + result)
     for (int i = 0; i < rows; i++) {
-        printValue(students[i]);
+        printValue(students[i]);    // Student name
         float sum = 0.f;
 
         for (int j = 0; j < cols; j++) {
             float mark = marks[i][j];
             sum += mark; 
-            printValue(mark);
+            printValue(mark);       // Subject mark
         }
+
         float avg = sum/cols;
-        printValue(avg);
-
-        if (avg < 6)
-            printValue("Non Ammesso/a");
-        else
-            printValue("Ammesso/a");
-
+        printValue(avg);            // Marks average
+        printValue(avg < 6 ? "Non Ammesso/a" : "Ammesso/a"); // Final result
         cout << endl;
     }
-
-
-    // Part 2
-    // cout << endl;
-
-    // int sorted[rows];
-    // int sortCol = 3;
-    // sort(sorted, marks, rows, cols, sortCol);
-
-    // printValue("");
-    // printValue(subjects[sortCol]);
-    // cout << endl;
-
-    // for (int i = 0; i < rows; i++) {
-    //     int idx = sorted[i];
-    //     printValue(students[idx]);
-    //     printValue(marks[idx][sortCol]);
-    //     cout << endl;
-    // }
 }
